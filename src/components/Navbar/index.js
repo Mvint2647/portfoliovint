@@ -9,16 +9,16 @@ import {
   NavLinks,
   MobileIcon,
   NavBtnLink,
-  NavBtn
+  NavBtn,
 } from "./NavbarEl";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Melissa Vint</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
