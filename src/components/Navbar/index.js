@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+
 import {
   Nav,
   NavbarContainer,
@@ -12,7 +13,7 @@ import {
   NavBtn,
 } from "./NavbarEl";
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>

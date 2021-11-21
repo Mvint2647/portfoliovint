@@ -1,28 +1,50 @@
-// import React from "react";
-// import Video from "../../videos/video.mp4";
-// import { HeroContainer, HeroBg, VideoBg } from "./HeroEl";
+import React, { useState } from "react";
+import Video from "../../videos/video.mp4";
+import { Button } from "../buttonEl";
 
-// const HeroSection = () => {
-//   return (
-//     <HeroContainer>
-//       <HeroBg>
-//         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-//       </HeroBg>
-//       <HeroContent>
-//         <HeroH1>Welcome to Melissa Vint's Portfolio</HeroH1>
-//         <HeroP>
-//           Thank you for taking the time to view my online portfolio. Take a
-//           minute and enjoy some great content that I created for you.
-//         </HeroP>
-//         <HeroBtnWrapper>
-//           <Button to="services">
-//             {"services"}
-//             Get started {hover ? <ArrowForward /> : <ArrowRight />}
-//           </Button>
-//         </HeroBtnWrapper>
-//       </HeroContent>
-//     </HeroContainer>
-//   );
-// };
+import {
+  HeroContainer,
+  HeroBg,
+  VideoBg,
+  HeroContent,
+  HeroH1,
+  HeroP,
+  HeroBtnWrapper,
+  ArrowForward,
+  ArrowRight,
+} from "./HeroEl";
 
-// export default HeroSection;
+const HeroSection = () => {
+  const [hover, setHover] = useState(false);
+
+  const onHover = () => {
+    setHover(!hover);
+  };
+
+  return (
+    <HeroContainer>
+      <HeroBg>
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+      </HeroBg>
+      <HeroContent>
+        <HeroH1>
+          "Work hard in silence, let your success be your noise."
+          <HeroP>-Anonymous</HeroP>
+        </HeroH1>
+
+        <HeroBtnWrapper>
+          <Button to="servicespage"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            primary="true"
+            dark="true"
+          >
+            View Services {hover ? <ArrowForward /> : <ArrowRight />}
+          </Button>
+        </HeroBtnWrapper>
+      </HeroContent>
+    </HeroContainer>
+  );
+};
+
+export default HeroSection;
