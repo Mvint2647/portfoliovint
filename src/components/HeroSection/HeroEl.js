@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
   height: 830px;
   position: relative;
   z-index: 1;
-  background: #0c0c0c;
+  background: black;
 
   :before {
     content: " ";
@@ -18,10 +18,17 @@ export const HeroContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%),
-      linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 5) 10%, transparent 45%);
     z-index: 2;
   }
+`;
+
+export const VideoBg = styled.video`
+
+width:100%;
+height:100%;
+-o-object-fit: cover;
+object-fit: cover;
 `;
 
 // add :before styles
@@ -36,15 +43,7 @@ export const HeroBg = styled.div`
   overflow: hidden;
 `;
 
-export const VideoBg = styled.video`
 
-width:100%;
-height:100%;
--o-object-fit: cover;
-object-fit: cover;
-background: #232a34;
-
-`;
 
 export const HeroContent = styled.div`
   z-index: 3;
@@ -54,23 +53,30 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 `;
 
 export const HeroH1 = styled.div`
-  color: #fff;
   font-size: 70px;
   text-align: center;
+  font-weight: bolder;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:white;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
+    text-align:center;
   }
   @media screen and (max-width: 480px) {
     font-size: 32px;
+    text-align:center;
   }
 `;
 
 export const HeroP = styled.p`
-  color: #fff;
+  color: white;
   font-size: 20px;
   text-align: center;
   max-width: 600px;

@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Home />
        <Switch> 
-       <Route exact path='/' element={<Home/>}></Route> 
+       <Route exact path='/' exact={<Home/>}></Route> 
        <Route exact path='/extrapage' element={<ExtraPage/>}></Route> 
       </Switch> 
     </Router>

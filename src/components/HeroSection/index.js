@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>
           "Work hard in silence, let your success be your noise."
-          <HeroP>-Anonymous</HeroP>
+          <HeroP>- Anonymous</HeroP>
         </HeroH1>
 
         <HeroBtnWrapper>

@@ -1,7 +1,9 @@
+import { withTheme } from "styled-components";
+
 export const homeObjOne = {
     id: "about",
-    lightBg: false,
-    lightText: true,
+    lightBg: true,
+   //  lightText: true,
     lightTextDesc: true,
     topLine: "Welcome,", 
     headline: "About Me",
@@ -10,9 +12,9 @@ export const homeObjOne = {
     imgStart: true,
     img: require("../../images/about.svg").default,
     alt: "aboutme",
-    dark: true,
+   //  dark: false,
     primary: true, 
-    darktext: false,
+   //  darktext: false,
     Btn: true
  };
 
@@ -28,7 +30,7 @@ export const homeObjOne = {
     imgStart: true,
     img: require("../../images/portfolio.svg").default,
     alt: "aboutme",
-    dark: false,
+    dark: true,
     primary: true, 
     darktext: true
  };

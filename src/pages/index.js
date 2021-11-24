@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
-import Sidebar from "../components/Topbar";
+import Topbar from "../components/Topbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
+import Services from "../components/Services";
+import Footer from "../components/Footer";
 import {
   homeObjOne,
   homeObjTwo,
   homeObjThree,
   homeObjFour,
 } from "../components/InfoSection/Data";
-import { ServicesContainer } from "../components/Services/ServiceEl";
-import Footer from "../components/Footer";
+
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,13 +22,13 @@ const Home = () => {
 
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Topbar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
       <InfoSection {...homeObjThree} />
-      <ServicesContainer />
+      <Services />
       <InfoSection {...homeObjFour} />
       <Footer />
     </>

@@ -1,4 +1,7 @@
 import React from "react";
+// import Icon1 from "../../images/";
+// import Icon2 from "../../images/";
+// import Icon3 from "../../images/";
 import {
   ServicesH1,
   ServicesIcon,
@@ -9,9 +12,7 @@ import {
   ServicesContainer,
 } from "./ServiceEl";
 
-import Icon1 from "../../images/Icon1.svg";
-import Icon2 from "../../images/";
-import Icon3 from "../../images/";
+
 
 const Services = () => {
   return (
@@ -19,17 +20,17 @@ const Services = () => {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
+          {/* <ServicesIcon src={Icon1} /> */}
           <ServicesH2> Blah1 Blah1</ServicesH2>
           <ServicesP> Blah1 Blah1 Blah1 </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
+          {/* <ServicesIcon src={Icon2} /> */}
           <ServicesH2> Blah2 Blah2 </ServicesH2>
           <ServicesP> Blah2 Blah2 Blah2 </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          {/* <ServicesIcon src={Icon3} /> */}
           <ServicesH2> Blah3 Blah3 </ServicesH2>
           <ServicesP> Blah3 Blah3 Blah3 </ServicesP>
         </ServicesCard>
