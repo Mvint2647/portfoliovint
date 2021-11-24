@@ -3,7 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
 
-export const SidebarContainer = styled.aside`
+export const TopbarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
@@ -20,7 +20,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color: white;
+  color:red;
 `;
 
 export const Icon = styled.div`
@@ -33,11 +33,11 @@ export const Icon = styled.div`
   outline: none;
 `;
 
-export const SidebarWrapper = styled.div`
+export const TopbarWrapper = styled.div`
   color: white;
 `;
 
-export const SidebarMenu = styled.ul`
+export const TopbarMenu = styled.ul`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 80px);
@@ -48,7 +48,7 @@ export const SidebarMenu = styled.ul`
   }
 `;
 
-export const SidebarLink = styled(LinkS)`
+export const TopbarLink = styled(LinkS)`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,11 +66,11 @@ export const SidebarLink = styled(LinkS)`
   }
 `;
 
-export const SideBtnWrap = styled.div`
+export const TopBtnWrap = styled.div`
   display: flex;
   justify-content: center;
 `;
-export const SidebarRoute = styled(LinkR)`
+export const TopbarRoute = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;

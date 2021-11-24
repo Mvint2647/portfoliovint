@@ -49,8 +49,8 @@ background: #232a34;
 export const HeroContent = styled.div`
   z-index: 3;
   max-width: 1200px;
-  position: absolute;
-  padding: 100px 90px;
+  position: relative;
+  padding: 200px 90px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,7 +58,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.div`
   color: #fff;
-  font-size: 80px;
+  font-size: 70px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -71,7 +71,7 @@ export const HeroH1 = styled.div`
 
 export const HeroP = styled.p`
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
   max-width: 600px;
   margin-top: 20px;
@@ -91,7 +91,6 @@ export const HeroBtnWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-export const Button = styled.p``;
 
 export const ArrowForward = styled(MdArrowForward)`
   margin-left: 8px;

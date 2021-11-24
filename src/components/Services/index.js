@@ -1,10 +1,17 @@
 import React from "react";
-import { ServicesH1, ServicesIcon, ServicesH2, ServicesP, ServicesCard, ServicesWrapper, ServicesContainer } from "./ServiceEl";
-import Icon1 from "../../images/"
-import Icon2 from "../../images/"
-import Icon3 from "../../images/"
+import {
+  ServicesH1,
+  ServicesIcon,
+  ServicesH2,
+  ServicesP,
+  ServicesCard,
+  ServicesWrapper,
+  ServicesContainer,
+} from "./ServiceEl";
 
-
+import Icon1 from "../../images/Icon1.svg";
+import Icon2 from "../../images/";
+import Icon3 from "../../images/";
 
 const Services = () => {
   return (

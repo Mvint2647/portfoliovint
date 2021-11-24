@@ -13,6 +13,7 @@ import {
 } from "./NavbarEl";
 
 const Navbar = ({ toggle }) => {
+  
   return (
     <>
       <Nav>
@@ -32,11 +33,11 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="resume">Resume</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks to="contact">Services</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/about"></NavBtnLink>
+            <NavBtnLink to="/about">Options</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
