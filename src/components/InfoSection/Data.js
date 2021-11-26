@@ -1,4 +1,4 @@
-import { withTheme } from "styled-components";
+import { WithTheme } from "styled-components";
 
 export const homeObjOne = {
     id: "about",
@@ -7,8 +7,8 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: "Welcome,", 
     headline: "About Me",
-    description: "My name is Melisa Vint and I also go by Mel. I love designing and creating🎨. I am a dog person 🐕. I also love going to the gym and eating lots of food🍕!",
-    buttonLabel: "More about me",
+    description: "My name is Melisa Vint and I also go by Mel. I love designing and creating. I am a dog person. I also love going to the gym and eating lots of food!",
+   //  buttonLabel: "More about me",
     imgStart: true,
     img: require("../../images/about.svg").default,
     alt: "aboutme",
@@ -19,37 +19,36 @@ export const homeObjOne = {
  };
 
  export const homeObjTwo = {
-    id: "portfolio",
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: false,
-    topLine: " ", 
-    headline: "Portfolio",
-    description: "A little intro about my portfolio; It will contain at least 2 projects that I worked on with amazing  developers and 2 mini applications in which I worked on solo. Feel free to click the button below to view.",
-    buttonLabel: "Click me!",
-    imgStart: true,
-    img: require("../../images/portfolio.svg").default,
-    alt: "aboutme",
-    dark: true,
-    primary: true, 
-    darktext: true
- };
-
- export const homeObjThree = {
-    id: "resume",
+  id: "resume",
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     topLine: " ", 
     headline: "Resume",
     description: "Resume Link : ",
-    buttonLabel: "Let's Go!",
+   //  buttonLabel: "Let's Go!",
     imgStart: true,
     img: require("../../images/resume.svg").default,
     alt: "aboutme",
     dark: false,
     primary: false, 
     darktext: true
+ };
+
+ export const homeObjThree = {
+   id: "portfolio",
+   lightBg: false,
+   lightText: true,
+   lightTextDesc: false,
+   topLine: " ", 
+   headline: "Portfolio",
+   buttonLabel: "Click me!",
+   imgStart: true,
+   img: require("../../images/portfolio.svg").default,
+   alt: "aboutme",
+   dark: true,
+   primary: true, 
+   darktext: true
  };
 
  export const homeObjFour = {

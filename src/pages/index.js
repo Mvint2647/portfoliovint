@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import Services from "../components/Services";
+import Services from "../components/Portfolio";
 import Footer from "../components/Footer";
 import {
   homeObjOne,

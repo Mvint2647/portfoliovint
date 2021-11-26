@@ -1,11 +1,10 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
-import { Link as LinkR } from "react-router-dom";
 
-export const TopbarContainer = styled.aside`
-  position: fixed;
-  z-index: auto;
+export const TopbarContainer = styled.div`
+  position: absolute;
+  z-index: 2;
   width: 100%;
   height: 100%;
   background: black;
@@ -20,7 +19,7 @@ export const TopbarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color:red;
+  color:white;
 `;
 
 export const Icon = styled.div`
@@ -63,29 +62,5 @@ export const TopbarLink = styled(LinkS)`
   &:hover {
     color: #01bf71;
     transition: 0.2s ease-in-out;
-  }
-`;
-
-export const TopBtnWrap = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-export const TopbarRoute = styled(LinkR)`
-  border-radius: 50px;
-  background: #01bf71;
-  white-space: nowrap;
-  padding: 16px 64px;
-  color: #010606;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: white;
-    color: #010606;
   }
 `;

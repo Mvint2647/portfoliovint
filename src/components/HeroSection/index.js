@@ -1,16 +1,13 @@
 import React, { useState } from "react";
-import Video from "../../videos/video.mp4";
-import { Button } from "../buttonEl";
+import Video from "../../videos/video5.mp4";
+
 import {
   HeroContainer,
   HeroBg,
   VideoBg,
   HeroContent,
   HeroH1,
-  HeroP,
-  HeroBtnWrapper,
-  ArrowForward,
-  ArrowRight,
+  HeroP
 } from "./HeroEl";
 
 const HeroSection = () => {
@@ -23,24 +20,13 @@ const HeroSection = () => {
   return (
     <HeroContainer>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg autoPlay loop muted src={Video} type="video5/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>
           "Work hard in silence, let your success be your noise."
           <HeroP>- Anonymous</HeroP>
         </HeroH1>
-
-        <HeroBtnWrapper>
-          <Button to="servicespage"
-            onMouseEnter={onHover}
-            onMouseLeave={onHover}
-            primary="true"
-            dark="true"
-          >
-            View Services {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
-        </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
   );

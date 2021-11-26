@@ -3,20 +3,18 @@ import {
   TopbarContainer,
   Icon,
   CloseIcon,
-  TopBtnWrap,
   TopbarLink,
   TopbarMenu,
-  TopbarWrapper,
-  TopbarRoute,
+
 } from "./TopBarEl";
 
-const Topbar = ({ isOpen, toggle }) => {
+const Topbar = ({  isOpen, toggle }) => {
   return (
     <TopbarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
-      <TopbarWrapper>
+   
         <TopbarMenu>
           <TopbarLink to="about" onClick={toggle}>
             About
@@ -31,10 +29,6 @@ const Topbar = ({ isOpen, toggle }) => {
             Contact
           </TopbarLink>
         </TopbarMenu>
-        <TopBtnWrap>
-          <TopbarRoute to="/services">Click to view Services</TopbarRoute>
-        </TopBtnWrap>
-      </TopbarWrapper>
     </TopbarContainer>
   );
 };
