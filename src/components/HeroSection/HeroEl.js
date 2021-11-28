@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const HeroContainer = styled.div`
   text-align: center;
   justify-content: center;
@@ -45,27 +44,40 @@ export const HeroBg = styled.div`
 export const HeroContent = styled.div`
   z-index: 3;
   position: relative;
-  padding: 200px 90px;
-  max-width: 500px;
+  padding: 300px 100px;
+  max-width: 1100px;
 `;
 
 export const HeroH1 = styled.div`
-  font-size: 30px;
+  font-size: 70px;
   font-weight: bolder;
-  text-align: left;
-  justify-content: left;
-  align-items: left;
-  color:white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
 
+  @media screen and (max-width: 990px) {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border: white 1px solid;
+    background-color: white;
+    opacity: 0.7;
+    padding:10px;
+  }
   @media screen and (max-width: 768px) {
     font-size: 40px;
     text-align: center;
-
+    color: black;
+    border: white 1px solid;
+    background-color: white;
+    opacity: 0.7;
+    padding:10px;
   }
   @media screen and (max-width: 480px) {
     font-size: 32px;
     text-align: center;
-    color:black;
+    color: black;
   }
 `;
 
@@ -79,6 +91,10 @@ export const HeroP = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
+    color: black;
+    border: white 1px solid;
+    background-color: white;
+    opacity: 0.7;
   }
   @media screen and (max-width: 480px) {
     font-size: 18px;
@@ -91,4 +107,3 @@ export const HeroBtnWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-

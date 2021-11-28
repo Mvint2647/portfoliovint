@@ -7,7 +7,7 @@ export const TopbarContainer = styled.div`
   z-index: 2;
   width: 100%;
   height: 100%;
-  background: black;
+  background: darkgrey;
   display: grid;
   align-items: center;
   top: 0;
@@ -19,21 +19,23 @@ export const TopbarContainer = styled.div`
 `;
 
 export const CloseIcon = styled(FaTimes)`
-  color:white;
+  color:grey;
 `;
 
 export const Icon = styled.div`
   position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+  top: 5.2rem;
+  right: 2.5rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
   outline: none;
+  color:grey;
 `;
 
 export const TopbarWrapper = styled.div`
   color: white;
+  color:grey;
 `;
 
 export const TopbarMenu = styled.ul`
@@ -55,12 +57,12 @@ export const TopbarLink = styled(LinkS)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: white;
+  color:grey;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
-    color: #01bf71;
+    color: white;
     transition: 0.2s ease-in-out;
   }
 `;

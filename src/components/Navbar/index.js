@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
+import { animateScroll as scroll } from "react-scroll";
 import {
   Nav,
   NavLogo,
   NavMenu,
   NavLink,
   MobileIcon,
-  NavbarContainer
+  NavbarContainer,
 } from "./NavbarEl";
 
 const Navbar = ({ toggle }) => {
@@ -22,24 +23,70 @@ const Navbar = ({ toggle }) => {
     window.addEventListener("scroll", changeNav);
   }, []);
 
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/">Melissa Vint</NavLogo>
+          <NavLogo to="/" onClick={toggleHome}>
+            Melissa Vint
+          </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
-            <NavLink to="about">About</NavLink>
+            <NavLink
+              to="about"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              About
+            </NavLink>
 
-            <NavLink to="portfolio">Portfolio</NavLink>
+            <NavLink
+              to="portfolio"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Portfolio
+            </NavLink>
 
-            <NavLink to="resume">Resume</NavLink>
+            <NavLink
+              to="resume"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Resume
+            </NavLink>
 
-            <NavLink to="contact">Services</NavLink>
+            <NavLink
+              to="contact"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Services
+            </NavLink>
           </NavMenu>
-          </NavbarContainer>
+        </NavbarContainer>
       </Nav>
     </>
   );

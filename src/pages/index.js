@@ -3,14 +3,14 @@ import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import Services from "../components/Portfolio";
 import Footer from "../components/Footer";
 import {
   homeObjOne,
   homeObjTwo,
-  homeObjThree,
-  homeObjFour,
+  // homeObjFour,
 } from "../components/InfoSection/Data";
+import Portfolio from "../components/Portfolio";
+// import Graphic from "../components/Graphic";
 
 
 const Home = () => {
@@ -26,12 +26,12 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
+      {/* <InfoSection {...homeObjFour} /> */}
       <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjThree} />
-      <Services />
-      <InfoSection {...homeObjFour} />
+      <Portfolio />
+      {/* <Graphic /> */}
       <Footer />
-    </>
+   </>
   );
 };
 

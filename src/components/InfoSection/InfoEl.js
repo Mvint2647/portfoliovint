@@ -1,24 +1,39 @@
 import styled from "styled-components";
 
 export const InfoContainer = styled.div`
-color:${({lightBg}) => (lightBg ? "#000000" : "#fff")};
-background: ${({lightBg}) => (lightBg ? "#000000" : "#fff")};
+  color: ${({ lightBg }) => (lightBg ? "#000000" : "#fff")};
+  background: ${({ lightBg }) => (lightBg ? "#000000" : "#fff")};
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 80px) {
     padding: 100px 0;
-}
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 100px 0;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 100px 0;
+  }
 `;
 
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 660px;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
   justify-content: center;
+
+  @media screen and (max-width: 868px) {
+    height:50%;
+    width: 50%;
+  }
+  @media screen and (max-width: 480px) {
+    
+  }
 `;
 
 export const InfoRow = styled.div`
@@ -53,7 +68,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
- color:${({lightBg}) => (lightBg ? "#000000" : "#fff")};
+  color: ${({ lightBg }) => (lightBg ? "#000000" : "#fff")};
   font-size: 26px;
   line-height: 16px;
   font-weight: 700;
@@ -64,7 +79,7 @@ export const TopLine = styled.p`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.1;
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#000000" : "#fff")};
@@ -75,8 +90,8 @@ export const Heading = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  max-width: 440px;
-  margin-bottom: 35px;
+  max-width: 840px;
+  margin-bottom: 55px;
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#000000" : "#fff")};
@@ -91,7 +106,7 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 100%;
+  width: 70%;
   margin: 0 0 10px 0;
-  padding-right: 0;
+ 
 `;

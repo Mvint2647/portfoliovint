@@ -7,8 +7,8 @@ export const ServicesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
+  padding-top:200px;
+  
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
@@ -38,19 +38,19 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
+background-color:  #18191A;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
-color: black;
 max-height: 540px;
 padding: 30px;
-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-transition: all 0.2 ease-in-out;
+box-shadow: 0px 3px 5px rgba(91, 91, 91, 1);
+transition: all 0.3 ease-in-out;
 
 &:hover{
-transform: scale(1.02);
-transition: all 0.2 ease-in-out;
+transform: scale(1.05);
+transition: all 0.4s ease-in-out;
 cursor: pointer;
 
 @media screen and (max-width: 480px) {
@@ -62,12 +62,13 @@ cursor: pointer;
 export const ServicesImage = styled.img`
   height: 200px;
   width: 320px;
+  padding:10px;
+  
 `;
 
 export const ServicesH1 = styled.h1`
- 
-  color: black;
   font-display: center;
+  margin:20px;
 
   @media screen and (max-width: 480px) {
     font-size: 1rem;
@@ -75,8 +76,10 @@ export const ServicesH1 = styled.h1`
 `;
 export const ServicesH2 = styled.h2`
   font-size: 1.5rem;
-  color: black;
+  color: #39FF14;
   margin-bottom: 24px;
+  margin-top:10px;
+  
 
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -86,5 +89,5 @@ export const ServicesH2 = styled.h2`
 export const ServicesP = styled.p`
   font-size: 10px;
   text-align: center;
-  color:black;
+  color: white;
 `;

@@ -1,5 +1,5 @@
 import React from "react";
-import Fitness from "../../images/Fitness.png";
+import NoteTracker from "../../images/NoteTracker.png";
 import Quickfix from "../../images/QuickFixRecipe.png";
 import Keyboard from "../../images/Keyboard.gif";
 import {
@@ -14,14 +14,17 @@ import {
 
 const Portfolio = () => {
   return (
-    <ServicesContainer id="services">
+    
+    <ServicesContainer id="portfolio">
+      
       <ServicesH1>Portfolio Preview</ServicesH1>
+      
       <ServicesWrapper>
         <ServicesCard>
           <ServicesImage src={Keyboard} className="card-img" alt="..." />
           <a
             className="card-text mx-4 fs-3 text-success text-decoration-none bg-light"
-            href="https://github.com/jboybokungu/keyboard-battle"
+            href="https://keyboardbattle.herokuapp.com/"
           >
             Website
           </a>
@@ -63,10 +66,10 @@ const Portfolio = () => {
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesImage src={Fitness} className="card-img" alt="..." />
+          <ServicesImage src={NoteTracker} className="card-img" alt="..." />
           <a
             className="card-text mx-4 fs-3 text-success text-decoration-none bg-light"
-            href="frozen-atoll-30244.herokuapp.com/?id=6168b60b0ad1a20017cdc799"
+            href="https://gentle-everglades-44862.herokuapp.com/"
           >
             Website
           </a>
