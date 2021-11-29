@@ -74,8 +74,8 @@ const Navbar = ({ toggle }) => {
               Resume
             </NavLink>
 
-            {/* <NavLink
-              to="footer"
+            <NavLink
+              to="contact"
               smooth={true}
               duration={500}
               spy={true}
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
               activeClass="active"
             >
               Services
-            </NavLink> */}
+            </NavLink>
           </NavMenu>
         </NavbarContainer>
       </Nav>
