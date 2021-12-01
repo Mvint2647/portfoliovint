@@ -3,7 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 
 export const TopbarContainer = styled.div`
-  position: absolute;
+  position: fixed;
   z-index: 2;
   width: 100%;
   height: 100%;
@@ -14,7 +14,7 @@ export const TopbarContainer = styled.div`
   left: 0;
   transition: 0.3 ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
+  top: ${({ isOpen }) => (isOpen ? "100%" : "-100%")};
   top: 0;
 `;
 
