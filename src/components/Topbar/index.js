@@ -14,7 +14,6 @@ const Topbar = ({  isOpen, toggle }) => {
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
-   
         <TopbarMenu>
           <TopbarLink to="about" onClick={toggle}>
             About

@@ -3,7 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 
 export const TopbarContainer = styled.div`
-  position: fixed;
+  position: absolute;
   z-index: 2;
   width: 100%;
   height: 100%;
@@ -14,28 +14,26 @@ export const TopbarContainer = styled.div`
   left: 0;
   transition: 0.3 ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
-  top: ${({ isOpen }) => (isOpen ? "100%" : "-100%")};
+  top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
   top: 0;
-`;
+  overflow-x: hidden`;
 
 export const CloseIcon = styled(FaTimes)`
   color:red;
 `;
 
 export const Icon = styled.div`
-  position: absolute;
+  position: fixed;
   top: 5.2rem;
   right: 2.5rem;
   background: transparent;
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-  color:grey;
 `;
 
 export const TopbarWrapper = styled.div`
   color: white;
-  color:grey;
 `;
 
 export const TopbarMenu = styled.ul`
