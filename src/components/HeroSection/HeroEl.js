@@ -61,16 +61,18 @@ export const HeroContent = styled.div`
   z-index: 3;
   position: relative;
   padding: 300px 100px;
-  max-width: 1100px;
+  max-width: 1300px;
 `;
 
 export const HeroH1 = styled.div`
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bolder;
   text-align: center;
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: black;
+  opacity: 0.7;
  
  
   @media screen and (max-width: 990px) {
@@ -97,6 +99,8 @@ export const HeroP = styled.p`
   max-width: 600px;
   margin-top: 20px;
   margin-bottom: 50px;
+  background-color: black;
+  opacity: 0.7;
 
   @media screen and (max-width: 990px) {
     font-size: 15px;

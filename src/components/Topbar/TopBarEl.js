@@ -30,7 +30,7 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-  color:white;
+  color:grey;
 `;
 
 export const TopbarWrapper = styled.div`
@@ -57,7 +57,7 @@ export const TopbarLink = styled(LinkS)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color:red;
+  color:#39FF14;
   cursor: pointer;
   text-decoration: none;
 

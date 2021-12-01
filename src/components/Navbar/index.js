@@ -51,18 +51,6 @@ const Navbar = ({ toggle }) => {
             </NavLink>
 
             <NavLink
-              to="portfolio"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact={"true"}
-              offset={-80}
-              activeClass="active"
-            >
-              Portfolio
-            </NavLink>
-
-            <NavLink
               to="resume"
               smooth={true}
               duration={500}
@@ -73,6 +61,7 @@ const Navbar = ({ toggle }) => {
             >
               Resume
             </NavLink>
+
             <NavLink
               to="contact"
               smooth={true}
@@ -83,6 +72,17 @@ const Navbar = ({ toggle }) => {
               activeClass="active"
             >
               Contact 
+            </NavLink>
+            <NavLink
+              to="portfolio"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Portfolio
             </NavLink>
           </NavMenu>
         </NavbarContainer>
