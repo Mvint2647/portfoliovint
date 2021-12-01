@@ -4,11 +4,10 @@ export const HeroContainer = styled.div`
   text-align: center;
   justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  padding: 20px;
   height: 830px;
   position: relative;
   z-index: 1;
-  background: black;
 
   :before {
     content: " ";
@@ -27,6 +26,23 @@ export const VideoBg = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+
+  @media screen and (max-width: 990px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 480px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 375px) {
+  width: 100%;
+  height: 95%;
+  }
 `;
 
 // add :before styles
@@ -55,29 +71,22 @@ export const HeroH1 = styled.div`
   justify-content: center;
   align-items: center;
   color: white;
-
+ 
+ 
   @media screen and (max-width: 990px) {
-    font-size: 40px;
-    text-align: center;
-    color: black;
-    border: white 1px solid;
-    background-color: white;
+    font-size: 50px;
+    background-color: black;
     opacity: 0.7;
-    padding:10px;
   }
   @media screen and (max-width: 768px) {
     font-size: 40px;
-    text-align: center;
-    color: black;
-    border: white 1px solid;
-    background-color: white;
-    opacity: 0.7;
-    padding:10px;
   }
   @media screen and (max-width: 480px) {
-    font-size: 32px;
-    text-align: center;
-    color: black;
+    font-size: 25px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 20px;
+
   }
 `;
 
@@ -89,20 +98,25 @@ export const HeroP = styled.p`
   margin-top: 20px;
   margin-bottom: 50px;
 
-  @media screen and (max-width: 768px) {
-    font-size: 24px;
-    color: black;
-    border: white 1px solid;
-    background-color: white;
+  @media screen and (max-width: 990px) {
+    font-size: 15px;
+    background-color: black;
     opacity: 0.7;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 10px;
+  }
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: 10px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 10px;
+
   }
 `;
 
 export const HeroBtnWrapper = styled.div`
-  margin-top: 32px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;

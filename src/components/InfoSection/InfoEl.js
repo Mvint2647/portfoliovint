@@ -14,6 +14,9 @@ export const InfoContainer = styled.div`
   @media screen and (max-width: 480px) {
     padding: 100px 0;
   }
+  @media screen and (max-width: 375px) {
+    padding: 100px 0;
+  }
 `;
 
 export const InfoWrapper = styled.div`
@@ -50,8 +53,8 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin-bottom: 10px;
+  padding: 0 10px;
   grid-area: col1;
 `;
 

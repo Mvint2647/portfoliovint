@@ -73,7 +73,6 @@ const Navbar = ({ toggle }) => {
             >
               Resume
             </NavLink>
-
             <NavLink
               to="contact"
               smooth={true}
@@ -83,7 +82,7 @@ const Navbar = ({ toggle }) => {
               offset={-80}
               activeClass="active"
             >
-              Services
+              Contact 
             </NavLink>
           </NavMenu>
         </NavbarContainer>

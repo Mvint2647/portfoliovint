@@ -1,19 +1,23 @@
 import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
-  height: 300px;
+  height: 500px;
   max-width: 550px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-top:200px;
+  padding-bottom:100px;
   
+  @media screen and (max-width: 990px) {
+    height: 1300px;
+  }
+
   @media screen and (max-width: 768px) {
     height: 1100px;
   }
-
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 768px) {
     height: 1300px;
   }
 `;

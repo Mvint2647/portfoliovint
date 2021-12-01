@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import {
   homeObjOne,
   homeObjTwo,
-  // homeObjFour,
+  homeObjFour,
 } from "../components/InfoSection/Data";
 import Portfolio from "../components/Portfolio";
 // import Graphic from "../components/Graphic";
@@ -26,9 +26,9 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <HeroSection />
       <InfoSection {...homeObjOne} />
-      {/* <InfoSection {...homeObjFour} /> */}
-      <InfoSection {...homeObjTwo} />
       <Portfolio />
+      <InfoSection {...homeObjTwo} />
+    `<InfoSection {...homeObjFour} /> `
       {/* <Graphic /> */}
       <Footer />
    </>

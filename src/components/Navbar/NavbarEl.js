@@ -16,8 +16,20 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 10;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 990px) {
     transition: 0.8s all ease;
+    font-size: 1.5rem;
+  }
+  @media screen and (max-width: 768px) {
+   
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+
+    font-size: .8rem;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: .5rem;
   }
 `;
 
@@ -30,6 +42,23 @@ export const NavbarContainer = styled.div`
   padding: 20 24px;
   max-width: 1100px;
   text-decoration: none;
+
+  @media screen and (max-width: 990px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 768px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 480px) {
+  width: 100%;
+  height: 100%;
+  }
+  @media screen and (max-width: 375px) {
+  width: 100%;
+  height: 95%;
+  }
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -43,12 +72,25 @@ export const NavLogo = styled(LinkR)`
   padding: 20px;
   font-weight: bold;
   text-decoration: none;
+
+  @media screen and (max-width: 990px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 2.5rem;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 2.0rem;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 1.9rem;
+  }
 `;
 
 export const NavMenu = styled.ul`
   display: flex;
-  align-items: center;
-  margin-right: -24px;
+  align-items: left;
+  margin-right: 24px;
   text-decoration: none;
 
   @media screen and (max-width: 768px) {
@@ -80,7 +122,7 @@ export const NavLink = styled(LinkS)`
 
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: white;
+  color: #39FF14;
   text-decoration: none;
 
   @media screen and (max-width: 768px) {
