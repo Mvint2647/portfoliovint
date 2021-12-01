@@ -16,7 +16,7 @@ const Graphic = () => {
   return (
     
     <ServiceContainer id="graphic">
-      <ServiceH1>Gaming Preview</ServiceH1>
+      <ServiceH1>Graphic Design Preview</ServiceH1>
 
       <ServiceWrapper>
         <ServiceCard>
