@@ -10,7 +10,7 @@ import {
   homeObjFour,
 } from "../components/InfoSection/Data";
 import Portfolio from "../components/Portfolio";
-// import Graphic from "../components/Graphic";
+import Graphic from "../components/Graphic";
 
 
 const Home = () => {
@@ -27,10 +27,9 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-    `<InfoSection {...homeObjFour} /> `
+      <InfoSection {...homeObjFour} />
       <Portfolio />
-     
-      {/* <Graphic /> */}
+      <Graphic /> 
       <Footer />
    </>
   );

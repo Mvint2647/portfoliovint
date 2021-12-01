@@ -17,7 +17,7 @@ const Portfolio = () => {
     
     <ServicesContainer id="portfolio">
       
-      <ServicesH1>Portfolio Preview</ServicesH1>
+      <ServicesH1>Web Development Preview</ServicesH1>
       
       <ServicesWrapper>
         <ServicesCard>
