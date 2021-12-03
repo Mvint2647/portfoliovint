@@ -2,18 +2,14 @@ import React from "react";
 import { FaFacebook, FaGithub, FaBehance, FaLinkedin } from "react-icons/fa";
 import {
   FooterContainer,
-  FooterLinkTitle,
-  FooterLink,
-  FooterLinkitems,
-  FooterLinksContainer,
   FooterWrap,
-  FooterLinksWrapper,
   SocialMedia,
   SocialIcons,
   SocialIconLink,
   WebsitesRights,
   SocialLogo,
   SocialMediaWrap,
+ 
 } from "./FooterEl";
 
 const Footer = () => {
@@ -23,10 +19,10 @@ const Footer = () => {
 
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/"> Mel</SocialLogo>
-
+            <SocialLogo>Mel</SocialLogo>
+         
             <WebsitesRights>
-              Mel Copyright {new Date().getFullYear()}All Rights Reserved.
+              Mel Copyright  {new Date().getFullYear()} All Rights Reserved.
             </WebsitesRights>
 
             <SocialIcons>

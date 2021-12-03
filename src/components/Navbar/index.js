@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="/Home" onClick={toggleHome}>
             Melissa Vint
           </NavLogo>
           <MobileIcon onClick={toggle}>
@@ -49,7 +49,6 @@ const Navbar = ({ toggle }) => {
             >
               About
             </NavLink>
-
             <NavLink
               to="resume"
               smooth={true}
@@ -61,18 +60,6 @@ const Navbar = ({ toggle }) => {
             >
               Resume
             </NavLink>
-
-            <NavLink
-              to="contact"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact={"true"}
-              offset={-80}
-              activeClass="active"
-            >
-              Contact 
-            </NavLink>
             <NavLink
               to="portfolio"
               smooth={true}
@@ -83,6 +70,19 @@ const Navbar = ({ toggle }) => {
               activeClass="active"
             >
               Portfolio
+            </NavLink>
+            <NavLink
+              to="/ContactPage"
+              onClick={toggle}
+              to="ContactPage"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Contact
             </NavLink>
           </NavMenu>
         </NavbarContainer>

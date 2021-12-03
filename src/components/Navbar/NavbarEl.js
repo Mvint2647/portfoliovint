@@ -21,15 +21,13 @@ export const Nav = styled.nav`
     font-size: 1.5rem;
   }
   @media screen and (max-width: 768px) {
-   
     font-size: 1rem;
   }
   @media screen and (max-width: 480px) {
-
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   @media screen and (max-width: 375px) {
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
 `;
 
@@ -44,20 +42,20 @@ export const NavbarContainer = styled.div`
   text-decoration: none;
 
   @media screen and (max-width: 990px) {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
   }
   @media screen and (max-width: 768px) {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
   }
   @media screen and (max-width: 480px) {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
   }
   @media screen and (max-width: 375px) {
-  width: 100%;
-  height: 95%;
+    width: 100%;
+    height: 95%;
   }
 `;
 
@@ -80,7 +78,7 @@ export const NavLogo = styled(LinkR)`
     font-size: 2.5rem;
   }
   @media screen and (max-width: 480px) {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
   @media screen and (max-width: 375px) {
     font-size: 1.9rem;
@@ -98,9 +96,6 @@ export const NavMenu = styled.ul`
   }
 `;
 
-export const NavItem = styled.li`
-  height: 80px;
-`;
 
 export const NavLink = styled(LinkS)`
   color: white;
@@ -113,16 +108,16 @@ export const NavLink = styled(LinkS)`
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #39FF14;
+    color: #39ff14;
   }
   &:hover {
-    color: #39FF14;
+    color: #39ff14;
   }
 `;
 
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: #39FF14;
+  color: #39ff14;
   text-decoration: none;
 
   @media screen and (max-width: 768px) {
@@ -135,3 +130,4 @@ export const MobileIcon = styled(FaBars)`
     cursor: pointer;
   }
 `;
+

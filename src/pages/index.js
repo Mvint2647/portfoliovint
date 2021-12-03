@@ -1,17 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "../components/Navbar";
 import Topbar from "../components/Topbar";
+import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
-import Footer from "../components/Footer";
-import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjFour,
-} from "../components/InfoSection/Data";
+import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
 import Portfolio from "../components/Portfolio";
 import Graphic from "../components/Graphic";
-
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,11 +22,10 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
-      <InfoSection {...homeObjFour} />
       <Portfolio />
-      <Graphic /> 
+      <Graphic />
       <Footer />
-   </>
+    </>
   );
 };
 

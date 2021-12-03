@@ -82,7 +82,7 @@ export const SocialMediaWrap = styled.div`
   }
 `;
 
-export const SocialLogo = styled(Link)`
+export const SocialLogo = styled.div`
   font-size: 1.5rem;
   color:#39FF14;
   cursor: pointer;

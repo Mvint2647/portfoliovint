@@ -33,19 +33,3 @@ export const homeObjTwo = {
   darktext: true,
 };
 
-export const homeObjFour = {
-  id: "contact",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Contact Me",
-  headline: " ",
-  description:
-    " ",
-  imgStart: true,
-  img: require("../../images/services.svg").default,
-  alt: "contact",
-  dark: true,
-  primary: true,
-  darktext: false,
-};
