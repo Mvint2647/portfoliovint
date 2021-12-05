@@ -16,7 +16,7 @@ const Graphic = () => {
   return (
     
     <ServiceContainer id="graphic">
-      <ServiceH1>Graphic Design Preview</ServiceH1>
+      <ServiceH1>Gaming Preview</ServiceH1>
 
       <ServiceWrapper>
         <ServiceCard>
@@ -25,7 +25,7 @@ const Graphic = () => {
           <ServiceP>
           ADOBE ILLUSTRATOR, ADOBE PHOTOSHOP
           </ServiceP>
-          <a href="https://www.behance.net/gallery/51996071/Phone-case"/>
+          <to href="https://www.behance.net/gallery/51996071/Phone-case"/>
           
         </ServiceCard>
         <ServiceCard>
@@ -43,7 +43,7 @@ const Graphic = () => {
           <ServiceP>
           ADOBE ILLUSTRATOR, ADOBE PHOTOSHOP
           </ServiceP>
-          <a href="https://www.behance.net/gallery/48977657/Brand-Logo-for-Company-Style-guide"/>
+          <to href="https://www.behance.net/gallery/48977657/Brand-Logo-for-Company-Style-guide"/>
           
         </ServiceCard>
       </ServiceWrapper>
