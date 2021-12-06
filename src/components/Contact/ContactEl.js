@@ -8,6 +8,8 @@ export const ServiceeContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding-top: 250px;
+  text-decoration: none;
+
 
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -26,6 +28,8 @@ export const ServiceeWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0px 50px;
+  text-decoration: none;
+
 
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;
@@ -48,6 +52,8 @@ export const ServiceeCard = styled.div`
   box-shadow: 0px 3px 5px rgba(91, 91, 91, 1);
   transition: all 0.3 ease-in-out;
   color: #39ff14;
+  text-decoration: none;
+
 
   &:hover {
     transform: scale(1.05);
@@ -65,11 +71,14 @@ export const ServiceeImage = styled.img`
   width: 310px;
   padding: 10px;
   color: #39ff14;
+  text-decoration: none;
+
 `;
 
 export const ServiceeH1 = styled.h1`
   margin-bottom: 30px;
-
+  text-decoration: none;
+  
   @media screen and (max-width: 480px) {
     font-size: 1rem;
   }

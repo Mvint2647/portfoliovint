@@ -19,19 +19,39 @@ const Contact = () => {
       <ServiceeWrapper>
         <ServiceeCard>
           <ServiceeImage src={Gmail} className="card-img" alt="..." />
-          <h1 href="http://www.melissavinny1133@gmail.com/">Gmail</h1>
+          <a
+            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="http://www.melissavinny1133@gmail.com/"
+          >
+            <h2> Gmail </h2>
+          </a>
         </ServiceeCard>
         <ServiceeCard>
           <ServiceeImage src={Behance} className="card-img" alt="..." />
-          <h1 href="https://www.behance.net/Melissasta10d9">Behance</h1>
+          <a
+            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="https://www.behance.net/Melissasta10d9"
+          >
+            <h2>Behance</h2>
+          </a>
         </ServiceeCard>
         <ServiceeCard>
           <ServiceeImage src={Github} className="card-img" alt="..." />
-          <h1 href="https://github.com/Mvint2647">Github</h1>
+          <a
+            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="https://github.com/Mvint2647"
+          >
+            <h2>Github</h2>
+          </a>
         </ServiceeCard>
         <ServiceeCard>
           <ServiceeImage src={Linkdin} className="card-img" alt="..." />
-          <h1 href="https://www.linkedin.com/in/melissav1133/">LinkedIn</h1>
+          <a
+            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="https://www.linkedin.com/in/melissav1133/"
+          >
+            <h2>LinkedIn</h2>
+          </a>
         </ServiceeCard>
       </ServiceeWrapper>
     </ServiceeContainer>
