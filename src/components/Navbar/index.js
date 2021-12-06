@@ -72,9 +72,8 @@ const Navbar = ({ toggle }) => {
               Portfolio
             </NavLink>
             <NavLink
-              to="/ContactPage"
-              onClick={toggle}
               to="ContactPage"
+              onClick={toggle}
               smooth={true}
               duration={500}
               spy={true}
