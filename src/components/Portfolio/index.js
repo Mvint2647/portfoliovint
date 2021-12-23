@@ -87,6 +87,28 @@ const Portfolio = () => {
             using MongoDB, Mongoose and Express.
           </ServicesP>
         </ServicesCard>
+        <ServicesCard>
+          <ServicesImage src={NoteTracker} className="card-img" alt="..." />
+          <a
+            className="card-text mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="https://gentle-everglades-44862.herokuapp.com/"
+          >
+            Website
+          </a>
+          <a
+            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            href="https://github.com/Mvint2647/Fitness-Tracker"
+          >
+            GitHub
+          </a>
+          <ServicesH2> Fitness Tracker App </ServicesH2>
+          <ServicesP>
+            The fitness tracker allows the user to create a workout where they
+            enter various exercises associated to the workout. This Application
+            includes minor frontend coding such as simple CSS and backend coding
+            using MongoDB, Mongoose and Express.
+          </ServicesP>
+        </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
   );
