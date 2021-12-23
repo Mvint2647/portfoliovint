@@ -47,18 +47,7 @@ const Navbar = ({ toggle }) => {
               offset={-80}
               activeClass="active"
             >
-              About
-            </NavLink>
-            <NavLink
-              to="resume"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact={"true"}
-              offset={-80}
-              activeClass="active"
-            >
-              Resume
+              About | Skills
             </NavLink>
             <NavLink
               to="portfolio"
@@ -69,11 +58,12 @@ const Navbar = ({ toggle }) => {
               offset={-80}
               activeClass="active"
             >
-              Portfolio
+              Portfolio 
             </NavLink>
             <NavLink
               to="ContactPage"
-              onClick={toggle}
+              onDoubleClick={toggle}
+              onClick={toggleHome}
               smooth={true}
               duration={500}
               spy={true}

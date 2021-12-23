@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import Topbar from "../components/Topbar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/InfoSection";
-import { homeObjOne, homeObjTwo } from "../components/InfoSection/Data";
+import Skills from "../components/Skills";
+import { homeObjOne, homeObjTwo } from "../components/Skills/Data";
 import Portfolio from "../components/Portfolio";
 import Graphic from "../components/Graphic";
 import Footer from "../components/Footer";
@@ -20,8 +20,8 @@ const Home = () => {
       <Topbar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
       <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <Skills {...homeObjOne} />
+      <Skills {...homeObjTwo} />
       <Portfolio />
       <Graphic />
       <Footer />

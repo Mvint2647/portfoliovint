@@ -8,6 +8,7 @@ import {
   NavLink,
   MobileIcon,
   NavbarContainer,
+  
 } from "./NavBarCopyEl";
 
 const Navbar = ({ toggle }) => {
@@ -32,7 +33,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/Home" onClick={toggleHome}>
-            Melissa Vint
+            Return Home!
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
@@ -45,9 +46,8 @@ const Navbar = ({ toggle }) => {
               spy={true}
               exact={"true"}
               offset={-80}
-            >
-              Click my name to return Home
-            </NavLink>
+            >  
+              </NavLink>
           </NavMenu>
         </NavbarContainer>
       </Nav>

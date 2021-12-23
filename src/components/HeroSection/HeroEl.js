@@ -65,20 +65,16 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.div`
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bolder;
   text-align: center;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: black;
-  opacity: 0.7;
- 
- 
+  
   @media screen and (max-width: 990px) {
     font-size: 50px;
-    background-color: black;
-    opacity: 0.7;
+    
   }
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -99,13 +95,10 @@ export const HeroP = styled.p`
   max-width: 600px;
   margin-top: 20px;
   margin-bottom: 50px;
-  background-color: black;
-  opacity: 0.7;
 
   @media screen and (max-width: 990px) {
     font-size: 15px;
-    background-color: black;
-    opacity: 0.7;
+  
   }
   @media screen and (max-width: 768px) {
     font-size: 10px;

@@ -9,14 +9,12 @@ export const TopbarContainer = styled.div`
   width: 100%;
   height: 100%;
   background: black;
-  display: grid;
   align-items: center;
   top: 0;
   left: 0;
   transition: 0.3 ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
   top: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
-  top: 0;
   overflow-x: hidden;
 `;
 
@@ -57,7 +55,7 @@ export const TopbarLink = styled(LinkS)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #39ff14;
+  color: white;
   cursor: pointer;
   text-decoration: none;
   margin-top: 180px;
@@ -67,9 +65,8 @@ export const TopbarLink = styled(LinkS)`
     transition: 0.2s ease-in-out;
   }
 `;
-
 export const TopBtnWrap = styled.div`
-  color: green;
+  color: white;
 `;
 export const TopbarRoute = styled(LinkR)`
   display: flex;
@@ -79,10 +76,11 @@ export const TopbarRoute = styled(LinkR)`
   text-decoration: none;
   list-style: none;
   transition: 0.2s ease-in-out;
-  color: #39ff14;
+  color: white;
   cursor: pointer;
   text-decoration: none;
-  margin-top: -200px;
+  margin-top:390px;
+
   &:hover {
     color: white;
     transition: 0.2s ease-in-out;

@@ -8,9 +8,9 @@ export const Nav = styled.nav`
   height: 80px;
   margin-top: -80px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-decoration: none;
-  align-items: center;
+  align-items: left;
   font-size: 1.5rem;
   position: sticky;
   top: 0;
@@ -100,6 +100,8 @@ export const NavLink = styled(LinkS)`
   color: white;
   display: flex;
   align-items: center;
+  justify-content: right;
+  text-align: right;
   text-decoration: none;
   padding: 0 1rem;
   font-size: 15px;

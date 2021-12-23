@@ -17,19 +17,19 @@ const Topbar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <TopbarMenu>
+        <TopBtnWrap>
+          <TopbarRoute to="contactpage">Contact</TopbarRoute>
+        </TopBtnWrap>
         <TopbarLink to="about" onClick={toggle}>
-          About
+          About | Skills
         </TopbarLink>
         <TopbarLink to="portfolio" onClick={toggle}>
           Portfolio
         </TopbarLink>
-        <TopbarLink to="resume" onClick={toggle}>
-          Resume
-        </TopbarLink>
+        <Icon onClick={toggle}>
+        <CloseIcon />
+      </Icon>
       </TopbarMenu>
-      <TopBtnWrap>
-        <TopbarRoute to="contactpage">Contact</TopbarRoute>
-      </TopBtnWrap>
     </TopbarContainer>
   );
 };

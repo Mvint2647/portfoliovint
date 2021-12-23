@@ -8,6 +8,7 @@ export const Nav = styled.nav`
   height: 80px;
   margin-top: -80px;
   display: flex;
+  
   justify-content: center;
   text-decoration: none;
   align-items: center;
@@ -103,22 +104,22 @@ export const NavLink = styled(LinkS)`
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  font-size: 15px;
-  font-weight: bolder;
+  font-size: 30px;
   height: 100%;
   cursor: pointer;
   &.active {
-    color: #39ff14;
+    color: white;
+    text-decoration: underline;
   }
   &:hover {
-    color: #39ff14;
+    color: red;
   }
 `;
 
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: #39ff14;
-  text-decoration: none;
+  color: red;
+  text-decoration: underline;
 
   @media screen and (max-width: 768px) {
     display: block;

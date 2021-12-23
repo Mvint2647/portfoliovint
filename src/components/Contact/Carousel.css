@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+.carousel * {
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.cardimg {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+
+.carousel .slide {
+  min-width: 100%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  color: black;
+  border-top: 40px solid;
+  border-bottom: 25px solid;
+  background-color: black;
+
+}
+
+a.cardtext {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.cardtext a:link {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+a:visited {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+a:hover {
+  color: #858686;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+a:active {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.carousel .control-dots {
+  z-index: 0;
+  visibility: hidden;
+}
+
+.carousel .carousel-status {
+  visibility: hidden;
+
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    transition: all .25s ease-in;
+    position: absolute;
+    z-index: 2;
+    top: -30px;
+    bottom: 36px;
+    background: rgba(0, 0, 0, 0.452);
+    border: 0;
+    font-size: 32px;
+    cursor: pointer;
+}

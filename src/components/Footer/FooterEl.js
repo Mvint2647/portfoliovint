@@ -84,8 +84,7 @@ export const SocialMediaWrap = styled.div`
 
 export const SocialLogo = styled.div`
   font-size: 1.5rem;
-  color:#39FF14;
-  cursor: pointer;
+  color:white;
   text-decoration: none;
   justify-self: start;
   display: flex;
@@ -103,10 +102,10 @@ export const SocialIcons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 200px;
+  width: 400px;
 `;
 
 export const SocialIconLink = styled.a`
-color: #39FF14;
+color: white;
 font-size: 24px;
 `
