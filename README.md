@@ -36,7 +36,6 @@ This project uses the MIT license
 Pull requests are welcome
 ## Screenshots
 **Home Page**
-## Screenshots
 ![portfoliovint](ss20.png)
 ![portfoliovint](ss21.png)
 
