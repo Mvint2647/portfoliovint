@@ -26,24 +26,24 @@ export default function ContactMe() {
 
   return (
     <div>
-      
       <div className="Container">
-      <h1 className="h1">Email me for Services</h1>
         <form onSubmit={sendEmail}>
           <div className="row">
             <div className="row1">
               <input
                 type="text"
                 className="form"
-                placeholder="Name"
+                placeholder=" Your Name"
                 name="name"
               />
             </div>
             <div className="row1">
+            <h1>Email me for Services <br></br>melissavinny1133@gmail.com</h1>
+       
               <input
                 type="email"
-                className="form"
-                placeholder="Email Address"
+                className="form1"
+                placeholder="Copy and Paste my Email listed above"
                 name="email"
               />
             </div>
@@ -61,16 +61,12 @@ export default function ContactMe() {
                 id=""
                 cols="30"
                 rows="8"
-                placeholder="Your Message"
+                placeholder="Your Message & Email here"
                 name="message"
               ></textarea>
             </div>
             <div className="row1">
-              <input
-                type="submit"
-                className="btn"
-                value="Send Message"
-              ></input>
+              <input type="submit" className="btn" value="Send Message"></input>
             </div>
           </div>
         </form>

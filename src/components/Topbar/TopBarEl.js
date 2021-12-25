@@ -79,7 +79,7 @@ export const TopbarRoute = styled(LinkR)`
   color: white;
   cursor: pointer;
   text-decoration: none;
-  margin-top:390px;
+  margin-top:480px;
 
   &:hover {
     color: white;

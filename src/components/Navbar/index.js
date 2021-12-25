@@ -47,7 +47,18 @@ const Navbar = ({ toggle }) => {
               offset={-80}
               activeClass="active"
             >
-              About | Skills
+              About
+            </NavLink>
+            <NavLink
+              to="skills"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact={"true"}
+              offset={-80}
+              activeClass="active"
+            >
+              Skills 
             </NavLink>
             <NavLink
               to="portfolio"

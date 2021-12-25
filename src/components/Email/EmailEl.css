@@ -18,6 +18,26 @@
   font-size: 20px;
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
+ 
+}
+
+h1{
+  color:white;
+  margin-bottom: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.form1 {
+  margin: auto;
+  justify-content: center;
+  border: none;
+  text-align: center;
+  width:20rem;
+  padding: 10px;
+  font-size: 15px;
+  color: rgb(0, 81, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .row1 {
@@ -40,9 +60,4 @@
   color: rgb(0, 0, 0);
 }
 
-.h1 {
-  margin: auto;
-  padding: auto;
-  color: rgb(0, 0, 0);
-  margin: 200px;
-}
+

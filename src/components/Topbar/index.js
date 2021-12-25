@@ -21,10 +21,13 @@ const Topbar = ({ isOpen, toggle }) => {
           <TopbarRoute to="contactpage">Contact</TopbarRoute>
         </TopBtnWrap>
         <TopbarLink to="about" onClick={toggle}>
-          About | Skills
+          About
         </TopbarLink>
         <TopbarLink to="portfolio" onClick={toggle}>
           Portfolio
+        </TopbarLink>
+        <TopbarLink to="skills" onClick={toggle}>
+          Skills
         </TopbarLink>
         <Icon onClick={toggle}>
         <CloseIcon />

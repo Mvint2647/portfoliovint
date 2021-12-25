@@ -31,7 +31,7 @@ const InfoSection = ({
   dark2,
 }) => {
   return (
-    <>
+    <div id="about">
       <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
@@ -65,7 +65,7 @@ const InfoSection = ({
           </InfoRow>
         </InfoWrapper>
       </InfoContainer>
-    </>
+    </div>
   );
 };
 

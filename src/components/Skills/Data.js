@@ -1,6 +1,3 @@
-// eslint-disable-next-line
-import styled from "styled-components";
-
 export const homeObjOne = {
   id: "about",
   lightBg: true,
@@ -19,7 +16,7 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "Skills",
+  id: "skills",
   lightBg: false,
   lightText: true,
   lightTextDesc: false,
