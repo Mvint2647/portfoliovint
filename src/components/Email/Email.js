@@ -11,21 +11,19 @@ export default function ContactMe() {
         "gmail",
         "template_87m4d2q",
         e.target,
-        "user_MXxCjBwYDlOsRwN4loBYT"
+        "user_MXxCjBwYDlOsRwN4loBYT",
       )
-      .then(
-        (result) => {
+      .then((result) => {
           console.log(result.text);
-        },
-        (error) => {
+        }, (error) => {
           console.log(error.text);
-        }
-      );
+        });
     e.target.reset();
   }
 
   return (
     <div>
+      <h5>Currently out of order</h5>
       <div className="Container">
         <form onSubmit={sendEmail}>
           <div className="row">
@@ -33,17 +31,15 @@ export default function ContactMe() {
               <input
                 type="text"
                 className="form"
-                placeholder=" Your Name"
+                placeholder=" "
                 name="name"
               />
             </div>
             <div className="row1">
-            <h1>Email me for Services <br></br>melissavinny1133@gmail.com</h1>
-       
               <input
                 type="email"
                 className="form1"
-                placeholder="Copy and Paste my Email listed above"
+                placeholder=" "
                 name="email"
               />
             </div>
@@ -51,7 +47,7 @@ export default function ContactMe() {
               <input
                 type="text"
                 className="form"
-                placeholder="Subject"
+                placeholder=" "
                 name="subject"
               />
             </div>
@@ -61,11 +57,11 @@ export default function ContactMe() {
                 id=""
                 cols="30"
                 rows="8"
-                placeholder="Your Message & Email here"
+                placeholder=" "
                 name="message"
               ></textarea>
             </div>
-            <div className="row1">
+            <div className="button">
               <input type="submit" className="btn" value="Send Message"></input>
             </div>
           </div>
