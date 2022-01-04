@@ -2,6 +2,8 @@ import React from "react";
 import NoteTracker from "../../images/NoteTracker.png";
 import Quickfix from "../../images/QuickFixRecipe.png";
 import Keyboard from "../../images/Keyboard.gif";
+import Cafe from "../../images/cafe.png";
+
 import {
   ServicesH1,
   ServicesImage,
@@ -14,11 +16,9 @@ import {
 
 const Portfolio = () => {
   return (
-    
     <ServicesContainer id="portfolio">
-      
       <ServicesH1>Web Development Preview</ServicesH1>
-      
+
       <ServicesWrapper>
         <ServicesCard>
           <ServicesImage src={Keyboard} className="card-img" alt="..." />
@@ -41,6 +41,7 @@ const Portfolio = () => {
             players can CHALLENGE each other!
           </ServicesP>
         </ServicesCard>
+        {/* ----------------------------- */}
         <ServicesCard>
           <ServicesImage src={Quickfix} className="card-img" alt="..." />
           <a
@@ -64,6 +65,7 @@ const Portfolio = () => {
             drinks and cocktails from around the world.
           </ServicesP>
         </ServicesCard>
+        {/* ----------------------------- */}
 
         <ServicesCard>
           <ServicesImage src={NoteTracker} className="card-img" alt="..." />
@@ -79,35 +81,32 @@ const Portfolio = () => {
           >
             GitHub
           </a>
-          <ServicesH2> Fitness Tracker App </ServicesH2>
+          <ServicesH2> Note App </ServicesH2>
           <ServicesP>
-            The fitness tracker allows the user to create a workout where they
-            enter various exercises associated to the workout. This Application
-            includes minor frontend coding such as simple CSS and backend coding
-            using MongoDB, Mongoose and Express.
+            The Note Taking App allows the user to create a note whether it'd be
+            a thought or an idea where they enter into the Note text-area. This
+            Application includes minor frontend coding such as simple CSS and
+            backend coding using MongoDB, Mongoose and Express.
           </ServicesP>
         </ServicesCard>
+        {/* ----------------------------- */}
+
         <ServicesCard>
-          <ServicesImage src={NoteTracker} className="card-img" alt="..." />
+          <ServicesImage src={Cafe} className="card-img" alt="..." />
           <a
             className="card-text mx-4 fs-3 text-success text-decoration-none bg-light"
-            href="https://gentle-everglades-44862.herokuapp.com/"
+            href="https://murmuring-retreat-45966.herokuapp.com/"
           >
             Website
           </a>
           <a
             className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
-            href="https://github.com/Mvint2647/Fitness-Tracker"
+            href="https://github.com/Mvint2647/Order-UP"
           >
             GitHub
           </a>
-          <ServicesH2> Fitness Tracker App </ServicesH2>
-          <ServicesP>
-            The fitness tracker allows the user to create a workout where they
-            enter various exercises associated to the workout. This Application
-            includes minor frontend coding such as simple CSS and backend coding
-            using MongoDB, Mongoose and Express.
-          </ServicesP>
+          <ServicesH2> Order Up!' </ServicesH2>
+          <ServicesP></ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>

@@ -8,7 +8,8 @@ export const ServiceContainer = styled.div`
   text-align: center;
   box-sizing: border-box;
   margin: auto;
-  padding-top:40px;
+  padding:40px;
+
 `;
 
 export const ServiceWrapper = styled.div`
@@ -32,7 +33,7 @@ export const ServiceWrapper = styled.div`
 `;
 
 export const ServiceCard = styled.div`
-  background-color: #18191a;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -45,7 +46,7 @@ export const ServiceCard = styled.div`
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    cursor: pointer;
+    
 
     @media screen and (max-width: 480px) {
       max-height: 240px;
@@ -54,9 +55,9 @@ export const ServiceCard = styled.div`
 `;
 
 export const ServiceImage = styled.img`
-  height: 200px;
-  width: 300px;
-  padding: 10px;
+  height: 100%;
+  width: 100%;
+
 `;
 
 export const ServiceH1 = styled.h1`
@@ -69,7 +70,7 @@ export const ServiceH1 = styled.h1`
 `;
 export const ServiceH2 = styled.h2`
   font-size: 1.5rem;
-  color: #39ff14;
+  color: black;
   margin-bottom: 24px;
   margin-top: 10px;
 
@@ -81,5 +82,5 @@ export const ServiceH2 = styled.h2`
 export const ServiceP = styled.p`
   font-size: 10px;
   text-align: center;
-  color: white;
+  color: black;
 `;
