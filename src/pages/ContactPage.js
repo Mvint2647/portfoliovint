@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavBarCopy from "../components/NavBarCopy";
 import Contact from "../components/Contact/Carousel";
-import Email from "../components/Email/Email";
+// import Email from "../components/Email/Email";
 import Footer from "../components/Footer";
 
 
@@ -16,7 +16,7 @@ const ContactPage = () => {
     <>
       <NavBarCopy toggle={toggle} />
       <Contact />
-      <Email />
+      {/* <Email /> */}
       <Footer />
     </>
   );
