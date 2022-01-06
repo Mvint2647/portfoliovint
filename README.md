@@ -18,7 +18,7 @@ For my portfolio I challeneged myself by building it with REACT. The majority of
 1. Run `npm start` to start the application
 2. Scan the portfolio site for each topic ( About Me/ Skills/ and Contact info.)
 3. To reach contact info a double click is needed.
-4. Once the user has reached the contact page they are free to send me and email if interested in services provided by me.
+4. Once the user has reached the contact page they are free to view the slideshow of plateforms that I use.
 
 
 The Live link of the application is available at:  [Live Site Here!](https://pure-lowlands-02728.herokuapp.com/)
@@ -26,7 +26,6 @@ The Live link of the application is available at:  [Live Site Here!](https://pur
 * Responsive scroll
 * Active Features
 * Viewing Routes
-* Sending an email
 * Browse through work.
 
 
