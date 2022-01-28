@@ -61,7 +61,7 @@ export const TopbarLink = styled(LinkS)`
   margin-top: 180px;
 
   &:hover {
-    color: white;
+    color: grey;
     transition: 0.2s ease-in-out;
   }
 `;
@@ -82,7 +82,7 @@ export const TopbarRoute = styled(LinkR)`
   margin-top:480px;
 
   &:hover {
-    color: white;
+    color: grey;
     transition: 0.2s ease-in-out;
   }
 `;

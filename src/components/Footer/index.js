@@ -27,7 +27,7 @@ const Footer = () => {
 
             <SocialIcons>
               <SocialIconLink
-                a href="https://www.facebook.com/Vinny1133/"
+                a href="https://www.facebook.com/VintCapitalContent"
                 target="_blank"
                 aria-label="Facebook"
               >

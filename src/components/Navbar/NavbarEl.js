@@ -112,7 +112,7 @@ export const NavLink = styled(LinkS)`
     text-decoration: underline;
   }
   &:hover {
-    color: red;
+    color: grey;
   }
 `;
 

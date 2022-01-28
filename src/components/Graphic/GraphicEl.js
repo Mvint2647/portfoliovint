@@ -33,7 +33,7 @@ export const ServiceWrapper = styled.div`
 `;
 
 export const ServiceCard = styled.div`
-  background-color: white;
+  background-color: #18191a;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -50,6 +50,7 @@ export const ServiceCard = styled.div`
 
     @media screen and (max-width: 480px) {
       max-height: 240px;
+     
     }
   }
 `;
@@ -70,7 +71,7 @@ export const ServiceH1 = styled.h1`
 `;
 export const ServiceH2 = styled.h2`
   font-size: 1.5rem;
-  color: black;
+  color: white;
   margin-bottom: 24px;
   margin-top: 10px;
 
@@ -82,5 +83,5 @@ export const ServiceH2 = styled.h2`
 export const ServiceP = styled.p`
   font-size: 10px;
   text-align: center;
-  color: black;
+  color: white;
 `;

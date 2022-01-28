@@ -40,7 +40,7 @@ const Graphic = () => {
             className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
             href="https://www.behance.net/gallery/48977657/Brand-Logo-for-Company-Style-guide"
           >
-            Behance
+            Behance 
           </a>
           <ServiceH2> Willow Oaks Design Logo </ServiceH2>
           <ServiceP>
@@ -50,7 +50,7 @@ const Graphic = () => {
         <ServiceCard>
           <ServiceImage src={pitbull} className="card-img" alt="..." />
           <a
-            className="card-text  mx-4 fs-3 text-success text-decoration-none bg-light"
+            className="card-text  mx-4 fs-3 text-dark text-decoration-none bg-dark"
             href="https://www.behance.net/gallery/44856280/Magazine-Assignment"
           >
             Behance
