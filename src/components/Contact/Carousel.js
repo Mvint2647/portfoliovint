@@ -13,27 +13,24 @@ export default () => (
       <div>
         <img alt="Github" src={Github} className="cardimg" />
       </div>
-      <a className="cardtext" href="https://github.com/Mvint2647">
-        Click to Visit!
+      <a className="cardText" href="https://github.com/Mvint2647">
+        Github
       </a>
     </div>
     <div>
       <div>
         <img alt="LinkedIn" src={Linkdin} className="cardimg" />
       </div>
-      <a
-        className="cardtext"
-        href="https://www.linkedin.com/in/melissav1133/"
-      >
-        Click to Visit!
+      <a className="cardText" href="https://www.linkedin.com/in/melissav1133/">
+        LinkedIn
       </a>
     </div>
     <div>
       <div>
         <img alt="Behance" src={Behance} className="cardimg" />
       </div>
-      <a className="cardtext" href="https://www.behance.net/Melissasta10d9">
-        Click to Visit!
+      <a className="cardText" href="https://www.behance.net/Melissasta10d9">
+        Behance
       </a>
     </div>
   </Carousel>

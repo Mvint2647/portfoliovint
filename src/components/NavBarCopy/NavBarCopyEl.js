@@ -110,8 +110,7 @@ export const NavLink = styled(LinkS)`
 `;
 
 export const MobileIcon = styled(FaBars)`
-  display: none;
-  color: #39ff14;
+  color: black;
   text-decoration: none;
 
   @media screen and (max-width: 768px) {

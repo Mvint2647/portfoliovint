@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/Home" onClick={toggleHome}>
-            Return Home!
+          &#9166;
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />

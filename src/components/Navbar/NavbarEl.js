@@ -8,7 +8,6 @@ export const Nav = styled.nav`
   height: 80px;
   margin-top: -80px;
   display: flex;
-  
   justify-content: center;
   text-decoration: none;
   align-items: center;
@@ -118,7 +117,7 @@ export const NavLink = styled(LinkS)`
 
 export const MobileIcon = styled(FaBars)`
   display: none;
-  color: red;
+  color: white;
   text-decoration: underline;
 
   @media screen and (max-width: 768px) {

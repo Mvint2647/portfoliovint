@@ -19,8 +19,8 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          "Work hard in silence, let your success be your noise."
-          <HeroP>- Anonymous</HeroP>
+          Welcome to my Portfolio Website
+          <HeroP>Mel V</HeroP>
         </HeroH1>
       </HeroContent>
     </HeroContainer>
